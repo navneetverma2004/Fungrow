@@ -1,0 +1,35 @@
+User-agent: *
+Allow: /
+Allow: /teen
+Allow: /company
+Allow: /how-it-works
+Allow: /about
+Allow: /contact
+Allow: /faq
+Allow: /privacy-policy
+Allow: /terms
+
+# Disallow private dashboards, user credentials and sensitive application management
+Disallow: /teen/dashboard
+Disallow: /teen/my-applications
+Disallow: /teen/my-projects
+Disallow: /teen/tasks
+Disallow: /teen/earnings
+Disallow: /teen/messages
+Disallow: /teen/notifications
+Disallow: /teen/settings
+Disallow: /company/dashboard
+Disallow: /company/post-project
+Disallow: /company/projects
+Disallow: /company/applications
+Disallow: /company/active-projects
+Disallow: /company/payments
+Disallow: /company/analytics
+Disallow: /company/messages
+Disallow: /company/notifications
+Disallow: /company/settings
+Disallow: /admin/
+Disallow: /auth/
+
+Sitemap: https://www.funngro.com/sitemap.xml
+
